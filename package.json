@@ -1,10 +1,9 @@
 {
   "name": "clean-api-response",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Production-ready Express middleware to standardize API responses with error handling, pagination, requestId and performance timing.",
   "main": "index.js",
   "type": "module",
-
   "keywords": [
     "express",
     "middleware",
@@ -15,42 +14,32 @@
     "pagination",
     "request-id"
   ],
-
   "author": "Samir Parvez",
   "license": "MIT",
-
   "repository": {
     "type": "git",
     "url": "https://github.com/SamirCoder16/clean-api-response.git"
   },
-
   "bugs": {
     "url": "https://github.com/SamirCoder16/clean-api-response/issues"
   },
-
   "homepage": "https://github.com/SamirCoder16/clean-api-response#readme",
-
   "files": [
     "src",
     "index.js"
   ],
-
   "exports": {
     ".": "./index.js"
   },
-
   "engines": {
     "node": ">=18"
   },
-
   "peerDependencies": {
     "express": ">=4"
   },
-
   "scripts": {
     "test": "node --test"
   },
-
   "devDependencies": {
     "express": "^5.2.1",
     "supertest": "^7.2.2"
