@@ -39,7 +39,7 @@ function createApp() {
 test("should return standardized success response", async () => {
   const app = createApp();
   const res = await request(app).get("/success");
-
+ 
   assert.strictEqual(res.body.success, true);
   assert.deepStrictEqual(res.body.data, { name: "Samir" });
   assert.strictEqual(res.body.error, null);
